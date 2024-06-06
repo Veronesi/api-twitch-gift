@@ -100,9 +100,9 @@ DB_PASSWORD=XXXX
 
 ### Modificar textos e imagenes
 en caso de querer modificar la páginas:
-
 1. 🏠 Página del home: `resources/views/welcome.blade.php` [ver](https://github.com/Veronesi/api-twitch-gift/blob/master/resources/views/welcome.blade.php)
 2. 👑 Página con las listas de claves `resources/views/profile.blade.php` [ver](https://github.com/Veronesi/api-twitch-gift/blob/master/resources/views/profile.blade.php)
+3. En caso de querer modificar o agregar mas imagenes, agregarlas en `/public`, imagen por defecto: `public/vMp3Ghxg_400x400.png` [ver](https://github.com/Veronesi/api-twitch-gift/blob/master/public/vMp3Ghxg_400x400.png)
 
 ### Subir los archivos incluidos en este repositorio al servidor web
 en caso de utilizar hostinger, [ver articulo de tutorial](https://www.hostinger.com.ar/tutoriales/como-usar-el-administrador-de-archivos-de-hostinger)
