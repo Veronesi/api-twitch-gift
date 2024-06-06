@@ -12,6 +12,7 @@
 - [Crear el archivo de variables](#crear-el-archivo-de-variables)
 - [Registrar aplicación en twitch](#registrar-aplicación-en-twitch)
 - [Crear la base de datos](#crear-la-base-de-datos)
+- [Modificar textos e imagenes](#modificar-textos-e-imagenes)
 - [Subir archivos al servidor web](#subir-los-archivos-incluidos-en-este-repositorio-al-servidor-web)
 
 ### Crear el archivo de variables 
@@ -96,6 +97,12 @@ DB_PASSWORD=XXXX
 3. Copiar el `nombre de usuario` para ponerlo en el archivo `.env` en la variable de entorno `DB_USERNAME`
 4. Copiar la `contraseña` para ponerlo en el archivo `.env` en la variable de entorno `DB_PASSWORD`
 5. importar la tabla para alamacenar los ganadores junto con la clave ganada [baitybait.sql](https://github.com/Veronesi/api-twitch-gift/blob/master/baitybait.sql), en caso de tener phpmyadmin en el servidor, [ver articulo de turorial](https://support.hostinger.com/en/articles/1884149-how-to-import-a-database-with-phpmyadmin)
+
+### Modificar textos e imagenes
+en caso de querer modificar la páginas:
+
+1. 🏠 Página del home: `resources/views/welcome.blade.php` [ver](https://github.com/Veronesi/api-twitch-gift/blob/master/resources/views/welcome.blade.php)
+2. 👑 Página con las listas de claves `resources/views/profile.blade.php` [ver](https://github.com/Veronesi/api-twitch-gift/blob/master/resources/views/profile.blade.php)
 
 ### Subir los archivos incluidos en este repositorio al servidor web
 en caso de utilizar hostinger, [ver articulo de tutorial](https://www.hostinger.com.ar/tutoriales/como-usar-el-administrador-de-archivos-de-hostinger)
